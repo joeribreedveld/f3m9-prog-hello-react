@@ -1,8 +1,11 @@
+// Imports
+import Card from "./Card"
+
 // Function
 const App = () => {
 	return (
 		<>
-			<h1>Hallo wereld!</h1>
+			<Card />
 		</>
 	)
 }
