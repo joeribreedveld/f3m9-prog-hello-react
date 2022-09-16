@@ -8,3 +8,11 @@ body {
     background: linear-gradient(to bottom right, #ECC5FB, 80%, #FAF4B7);
     min-height: 100vh;
 }
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}

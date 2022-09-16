@@ -1,3 +1,7 @@
+// Import
+import "./Card.css"
+
+// Function
 const Card = () => {
 	return (
 		<>
@@ -14,4 +18,5 @@ const Card = () => {
 	)
 }
 
+// Export
 export default Card
