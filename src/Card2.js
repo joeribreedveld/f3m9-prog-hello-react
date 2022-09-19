@@ -3,9 +3,13 @@ import "./Card.css"
 
 // Function
 const Card2 = () => {
+	const hallo = () => {
+		console.log("Ik ben kaartje twee")
+	}
+
 	return (
 		<>
-			<article>
+			<article onClick={hallo}>
 				<header>
 					<h2>Tweede kaart</h2>
 				</header>
