@@ -5,9 +5,9 @@ import "./Card.css"
 const Card = (props) => {
 	return (
 		<>
-			<article>
+			<article onClick={props.mouseclick}>
 				<header>
-					<h2>{props.title || "Placeholder title"}</h2>
+					<h2>{props.title || "placeholder title"}</h2>
 				</header>
 				<section>
 					{props.text ||
