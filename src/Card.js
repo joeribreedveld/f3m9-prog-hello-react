@@ -2,21 +2,14 @@
 import "./Card.css"
 
 // Function
-const Card = () => {
-	const hallo = () => {
-		console.log("Ik ben kaartje een")
-	}
-
+const Card = (props) => {
 	return (
 		<>
-			<article onClick={hallo}>
+			<article>
 				<header>
-					<h2>Eerste kaart</h2>
+					<h2>{props.title}</h2>
 				</header>
-				<section>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, aut mollitia numquam doloremque impedit rem, veritatis repudiandae reiciendis omnis magnam quas dolor totam
-					facilis. Illo iste cupiditate a esse quia!
-				</section>
+				<section>{props.text}</section>
 			</article>
 		</>
 	)

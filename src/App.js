@@ -8,9 +8,18 @@ import "./App.css"
 const App = () => {
 	return (
 		<>
-			<Card />
-			<Card2 />
-			<Card3 />
+			<Card
+				title='Eerste kaart'
+				text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia error accusamus esse odio doloribus commodi perferendis aut aspernatur optio voluptatum, sunt libero delectus vitae maiores eum cum aperiam soluta.'
+			/>
+			<Card
+				title='Tweede kaart'
+				text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia error accusamus esse odio doloribus commodi perferendis aut aspernatur optio voluptatum, sunt libero delectus vitae maiores eum cum aperiam soluta.'
+			/>
+			<Card
+				title='Derde kaart'
+				text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia error accusamus esse odio doloribus commodi perferendis aut aspernatur optio voluptatum, sunt libero delectus vitae maiores eum cum aperiam soluta.'
+			/>
 		</>
 	)
 }
