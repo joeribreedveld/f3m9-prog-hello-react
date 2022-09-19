@@ -7,9 +7,12 @@ const Card = (props) => {
 		<>
 			<article>
 				<header>
-					<h2>{props.title}</h2>
+					<h2>{props.title || "Placeholder title"}</h2>
 				</header>
-				<section>{props.text}</section>
+				<section>
+					{props.text ||
+						"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id corporis ipsa voluptatibus molestiae modi, dolores beatae inventore distinctio repellat voluptate cum illum? Soluta sed officiis perferendis, explicabo quae tenetur numquam?"}
+				</section>
 			</article>
 		</>
 	)
